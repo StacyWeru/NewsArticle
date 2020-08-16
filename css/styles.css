@@ -47,7 +47,7 @@ ul {
   }
   .row{ margin: 0 -5x;}
 
-  .row ::after{
+  .row :after{
       content: "";
       display: table;
       clear: both;
@@ -65,10 +65,19 @@ ul {
      float: left;
  }
 
- .footer{
+ footer{
     font-family: 'Romanesco', cursive;
     font-size: 30px;
     text-align: center;
-    
+   display: block;
+   border: darkgrey 5px;
+   padding: 10px;
+   margin: 10px darkgrey;
  }
+ @media screen and (max-width:720px) {
+    .column {
+      width: 100%;
+    }
+  }
+
  
