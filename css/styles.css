@@ -66,6 +66,7 @@ ul {
  }
 
  footer{
+     clear: both;
     font-family: 'Romanesco', cursive;
     font-size: 30px;
     text-align: center;
