@@ -7,6 +7,14 @@ html{
     margin-right: 10%;
     margin-top: 0%;
 }
+h1{
+    font-family: 'Romanesco', cursive;
+    font-size: 50px;
+}
+h2.introduction{
+    font-family: 'IM Fell English', serif;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
