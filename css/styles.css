@@ -3,18 +3,19 @@ html{
 }
 .container{
     background-color: rgb(250, 252, 255);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0%;
 }
 h1{
     font-family: 'Romanesco', cursive;
-    font-size: 50px;
+    font-size: 70px;
 }
-h2.introduction{
-    font-family: 'IM Fell English', serif;
+.header{
+    text-align: center;
+    background-color: rgb(184, 198, 223);
+}
 
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,6 +26,8 @@ ul {
   
   li {
     float: left;
+    font-family: 'IM Fell English', serif;
+    font-size: 25px;
   }
   
   li a {
@@ -38,3 +41,34 @@ ul {
   li a:hover {
     background-color: #111;
   }
+  .column{
+      float: left;
+      width: 50%;
+  }
+  .row{ margin: 0 -5x;}
+
+  .row ::after{
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .introduction h2{
+    font-family: 'IM Fell English', serif;
+    font-size: 30px; 
+  }
+ .introduction p{
+    font-family: 'Bilbo', cursive;
+    font-size: 25px;
+    color: rgb(2, 2, 2);
+ }
+ .introduction img{
+     float: left;
+ }
+
+ .footer{
+    font-family: 'Romanesco', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ 
